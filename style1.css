@@ -1,0 +1,41 @@
+/* Warna background untuk table header */
+th {
+    background-color: #007bff;
+    color: #c63838;
+  }
+  
+  /* Warna background untuk baris genap pada table body */
+  tr:nth-child(even) {
+    background-color: #dec244;
+  }
+  
+  /* Warna background untuk baris ganjil pada table body */
+  tr:nth-child(odd) {
+    background-color: #84b6e8;
+  }
+  
+  /* Warna background untuk tombol Tambah */
+  #1:nth-child(7) a {
+    background-color: #28a745;
+    color: #289919;
+  }
+  
+  /* Warna background untuk tombol Edit */
+  #1:nth-child(8) a {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  /* Warna background untuk tombol Hapus */
+  td:nth-child(9) a {
+    background-color: #dc3545;
+    color: #abc153;
+  }
+  
+  /* Warna background untuk input search */
+  #search {
+    background-color: #a1c53f;
+    border-color: #0d1e1e;
+    
+  }
+  

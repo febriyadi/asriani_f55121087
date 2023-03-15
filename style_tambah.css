@@ -1,0 +1,62 @@
+/* Set background color */
+body {
+  background-color: #f9f9f9;
+}
+
+/* Style form input fields */
+form input[type="text"], form input[type="email"], form select, form textarea {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b2b4b4;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Style form input button */
+form button[type="submit"] {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #bdc90b;
+  color: #a41919;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style form input button on hover */
+form button[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+/* Style form input button on active */
+form button[type="submit"]:active {
+  background-color: #21935e;
+}
+
+/* Style form input fields when they are focused */
+form input:focus, form select:focus, form textarea:focus {
+  outline: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Style form input fields with errors */
+form input:invalid, form textarea:invalid {
+  border: 2px solid #e74c3c;
+}
+
+/* Style form input fields with errors on focus */
+form input:focus:invalid, form textarea:focus:invalid {
+  border: 2px solid #e74c3c;
+  box-shadow: none;
+}
+
+/* Style form input fields with errors on hover */
+form input:invalid:hover, form textarea:invalid:hover {
+  border: 2px solid #c0392b;
+}

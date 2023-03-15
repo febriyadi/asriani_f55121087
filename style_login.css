@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+  }
+  
+  .login-box {
+    width: 320px;
+    height: 420px;
+    background: #b0aff3;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"] {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background: transparent;
+  }
+  
+  .user-box {
+    position: relative;
+  }
+  
+  .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .user-box input[type="text"]:focus ~ label, .login-box input[type="password"]:focus ~ label,
+  .user-box input[type="text"]:valid ~ label, .login-box input[type="password"]:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    background: #03e9f4;
+    padding: 10px 0;
+    color: #000;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .login-box a:hover {
+    background: #2ecc71;
+    color: #e07676;
+  }
+  
+  .login-box a span {
+    position: relative;
+    display: block;
+  }
+  
+  .login-box a span::before, .login-box a span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+  }  

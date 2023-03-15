@@ -1,0 +1,11 @@
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_php5.c>
+  AddType application/x-httpd-php .php
+  php_flag display_errors On
+</IfModule>
+<IfModule mod_php7.c>
+  AddType application/x-httpd-php .php
+  php_flag display_errors On
+</IfModule>
